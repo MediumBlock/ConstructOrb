@@ -1,0 +1,212 @@
+/* Universal */
+
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+-webkit-box-sizing: inherit;
+box-sizing: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.whitespace {
+  height: 100px;
+  background-color: #16809D;
+}
+
+
+/* Header */
+
+.content img {
+  width: 250px;
+  height: auto;
+}
+
+
+header .content {
+  display: flex;
+  border-bottom: 1px black solid;
+}
+
+
+
+
+.headslogan {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 17px;
+}
+
+.content ul {
+  display: flex;
+  text-decoration: none;
+
+}
+
+.content ul li {
+  margin-right: 10px;
+  margin-top: 28px;
+  text-decoration: none;
+
+}
+
+/* fonts */
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather', serif;
+}
+
+
+/* Main */
+
+.backhero {
+  height: 800px;
+  position: relative;
+
+}
+
+.backsolid {
+  background-color: #c8f3ff;
+  width: 100%;
+  position: relative;
+  height: 80px;
+  top: 350px;
+  opacity: 0.8
+}
+
+
+
+main .backhero {
+  background-image: url('./resources/images/images2213-5d28457e5baa1.jpg');
+  width: 100%;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.backhero {
+  border: 1px black solid;
+  
+}
+
+h1 {
+
+  position: absolute;
+  top: 450px;
+  left: 350px;
+  width: 1200px;
+  z-index: 5;
+}
+
+/* Projects */
+
+.container-projects {
+  background-color: #c8f3ff;
+}
+
+.container-projects h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.flex-item img {
+  width: 500px;
+  height: 300px;
+}
+
+.flex-item h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+/* Staff */
+
+.container-staff {
+  background-color: #e3e3e3;
+}
+
+.container-staff h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container-staff h3 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.flex-container-staff {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  height: 950px;
+  align-content: center;
+}
+
+
+.flex-staff img {
+  width: 250px;
+  height: 250px;
+}
+
+
+.flex-staff-c img {
+  width: 400px;
+  height: 250px;
+}
+
+.flex-staff {
+  margin-left: 75px;
+
+}
+.flex-staff-c {
+  margin-left: 75px;
+}
+
+.flex-staff h2 {
+  text-align: center;
+}
+
+.flex-staff-c h2 {
+  text-align: center;
+}
+
+
+
+/* Footer */
+
+.container-footer {
+  height: 38px;
+  background-color: #FFA500
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contents {
+  margin: 15px 10px 0 10px;
+}
+

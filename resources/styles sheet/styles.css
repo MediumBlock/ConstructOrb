@@ -1,0 +1,133 @@
+.heading {
+  width: 400px;
+}
+.colors {
+  border: 1px black solid;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fonts {
+  border: 1px black solid;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+ }
+
+ .tstyles {
+  border: 1px black solid;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.heading {
+  left: 200px;
+  position: relative;
+}
+
+h3 {
+  font-weight: bold;
+  left: 50px;
+  position: relative;
+  font-size: 25px;
+}
+
+.box {
+  width: 450px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  left: 10px;
+}
+
+.toastbox {
+  background-color: #e06f1f;
+}
+
+.mistbox {
+  background-color: #9d5716;
+}
+
+.steelbox {
+  background-color: #e0a21f;
+}
+
+.dirtbox {
+  background-color: #e03e1f;
+  margin-bottom: 15px;
+}
+
+.mudbox {
+  background-color: #9d2b16;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+il.box {
+  font-size: 40px;
+  text-align: center;
+}
+
+.box p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.type {
+  width: 450px;
+  height: 200px;
+  font-size: 18px;
+  display: inline-block;
+  left: 50px;
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.Merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.Lota {
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.style {
+  display: inline-block;
+  width: 500px;
+  left: 50px;
+  position: relative;
+}
+
+.head1 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.head2 {
+  font-weight: 500px;
+  font-size: 16px;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.style li {
+  font-size: 16px;
+  text-decoration: normal;
+  font-weight: 400;
+}
